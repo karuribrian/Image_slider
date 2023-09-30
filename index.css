@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.header{
+    font-size:1.2em ;
+}
+.slider_container{
+    position:relative;
+    height:5em;
+    width:90vw;
+    }
+.slides{
+    position:absolute;
+    width:2.5em;
+    display: flex;
+    
+
+}
+@keyframes pics {
+    100%{
+        transition: transform(-1000%);
+    }
+    
+}
+.slides img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    height:100%;
+    margin:10em;
+
+}
