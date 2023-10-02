@@ -3,33 +3,37 @@
     margin:0;
     box-sizing: border-box;
 }
+body{
+    background:#9393f5;
+}
 .header{
+    position: relative;
+    top:3em;
     font-size:1.2em ;
-}
-.slider_container{
-    position:relative;
-    height:5em;
-    width:90vw;
-    }
-.slides{
-    position:absolute;
-    width:2.5em;
     display: flex;
-    
-
-}
-@keyframes pics {
-    100%{
-        transition: transform(-1000%);
-    }
-    
-}
-.slides img{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-self: center;
-    height:100%;
-    margin:10em;
+}
+#image-container{
+    position:relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width:42em;
+    height:45em;
+    top:5em;
+    left:25%;
+    border: 3em solid transparent;
+    border-radius:4em;
+}
+.buttons{
+    position: relative;
+    background: linear-gradient(blue white);
+    width:5em;
+    height:2.5em;
+    display:flex;
+    left:40%;
+    top:4em;
+
 
 }
